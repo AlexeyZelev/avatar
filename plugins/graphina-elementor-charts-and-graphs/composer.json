@@ -1,0 +1,17 @@
+{
+    "name": "iqonic/graphina",
+    "authors": [
+        {
+            "name": "Milan6190",
+            "email": "hello@iqonic.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"GraphinaElementor\\": "./elementor"},
+        "files": [
+            "./utils/graphina_chart_helper.php",
+            "./utils/graphina_general_helper.php"
+        ]
+    }
+}
